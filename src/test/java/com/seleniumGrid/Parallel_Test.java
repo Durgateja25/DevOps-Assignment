@@ -1,4 +1,4 @@
-package com.SeleniumGrid.test;
+package com.seleniumGrid;
 
 import java.net.MalformedURLException;
 import java.net.URI;
@@ -48,7 +48,7 @@ public class Parallel_Test {
 	  System.out.println("Remote driver connectivity is completed!");
 	  Thread.sleep(10000);
 	  driver.get("https://www.amazon.in");
-	  Thread.sleep(6000);
+	 Thread.sleep(6000);
 	  System.out.println("Title is :"+driver.getTitle());
 	  
 	  driver.quit();
